@@ -64,7 +64,7 @@ while 1==1:
                 if c>usermoney:
                     print("Enter small amount")
                 else:
-                    print("You successfully withdrawl",c,"remaining money =",c-usermoney)
+                    print("You successfully withdrawl",c,"remaining money =",usermoney-c)
                     time.sleep(3)
             else:
                 print("You entered wrong password, Try again")
